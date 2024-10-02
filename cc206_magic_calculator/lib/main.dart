@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'features/dashboard.dart'; // Importing the dashboard
+import 'features/dashboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SmartCalculatorDashboard(), // Set the dashboard as the home
+      home: SmartCalculatorDashboard(),
     );
   }
 }
