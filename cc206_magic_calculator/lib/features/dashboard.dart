@@ -15,7 +15,6 @@ class SmartCalculatorDashboard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Dashboard title
             const Text(
               'Welcome to Smart Calculator',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
@@ -23,7 +22,6 @@ class SmartCalculatorDashboard extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // Description text
             const Text(
               'Select a mode or enter an equation to solve:',
               style: TextStyle(fontSize: 18),
@@ -31,7 +29,6 @@ class SmartCalculatorDashboard extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // Input field for the equation
             TextFormField(
               decoration: const InputDecoration(
                 labelText: 'Enter equation',
@@ -42,13 +39,11 @@ class SmartCalculatorDashboard extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // Row of mode button (Basic)
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    // Code for basic calculator mode
                   },
                   child: const Text('Basic Mode'),
                 ),
@@ -57,7 +52,6 @@ class SmartCalculatorDashboard extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // Display result label
             const Text(
               'Result:',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
@@ -65,7 +59,6 @@ class SmartCalculatorDashboard extends StatelessWidget {
 
             const SizedBox(height: 10),
 
-            // Result display area
             Container(
               width: double.infinity,
               padding: const EdgeInsets.all(16),
